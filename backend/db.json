@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "id": "9578",
+      "nome": "Alan",
+      "idade": "31",
+      "email": "alan@gmal.com"
+    },
+    {
+      "id": "c671",
+      "nome": "José",
+      "email": "zeze@gmail.com",
+      "idade": "18"
+    },
+    {
+      "id": "71fe",
+      "nome": "Pedro",
+      "email": "pedro@gmaii.com",
+      "idade": "31"
+    },
+    {
+      "id": "a03f",
+      "nome": "tewst",
+      "email": "oi@gmi.com",
+      "idade": "34"
+    }
+  ]
+}

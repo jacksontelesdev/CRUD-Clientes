@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+
+    <h1>Clientes</h1>
+
+    <form id="clienteForm">
+        <input type="hidden" id="id">
+
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="number" id="idade" placeholder="Idade" required>
+
+        <div class="form-acoes">
+            <button type="submit" id="salvar">Salvar</button>
+            <button type="button" id="cancelar">Cancelar</button>
+        </div>
+
+    </form>
+
+    <table>
+        <thead>
+            <tr class="linhaTabela">
+                <th class="colunaId">ID</th>
+                <th class="colunaNome">Nome</th>
+                <th class="colunaEmail">Email</th>
+                <th class="colunaIdade">Idade</th>
+                <th class="colunaAcoes">Ações</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabelaClientes">
+            <!-- Exemplo de linha gerada pelo JS -->
+            <!--
+            <tr>
+                <td>1</td>
+                <td>João</td>
+                <td>joao@email.com</td>
+                <td>25</td>
+                <td>
+                    <button class="btn-excluir" data-id="1">🗑️</button>
+                </td>
+            </tr>
+            -->
+        </tbody>
+    </table>
+
+</body>
+</html>
