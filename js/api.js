@@ -1,4 +1,4 @@
-const URL_BASE = 'https://crud-clientes-rosy.vercel.app'
+const URL_BASE = 'http://localhost:3000'
 
 const api = {
     async buscarClientes() {
